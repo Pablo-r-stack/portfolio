@@ -165,6 +165,12 @@ main{
 .info article h3{
     color: var(--linkColor);
 }
+#social{
+    width: 40%;
+    align-items: center;
+    margin: 0.3rem;
+    padding: 0.3rem;
+}
 
 #devPhoto{
     width: 100px;
@@ -175,11 +181,14 @@ main{
 .socialMedia{
     display: flex;
     flex-direction: column;
+    width: 100%;
     gap: 5px;
 }
 
 .socialMedia ul, .socialMedia ul li{
     display: flex;
+    flex-wrap: wrap;
+    margin: 0.2rem;
     gap: 5px;
 }
 
