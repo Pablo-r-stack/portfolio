@@ -98,6 +98,7 @@ nav{
 
 nav div, nav div ul, nav div ul li{
     display: flex;
+    flex-wrap: wrap;
     gap: 5px;
     justify-content: space-between;
     align-items: center;
@@ -118,7 +119,7 @@ nav div, nav div ul, nav div ul li{
 }
 
 .navMail{
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: var(--linkColor);
 }
 
@@ -393,6 +394,10 @@ footer {
     a{
         font-size: 1.4rem;
     }
+
+    .navMail{
+        font-size: 1.4rem;
+    }
     .btn{
         padding: 20px;
         font-size: 1.4rem;
@@ -569,4 +574,35 @@ footer {
     .contact form textarea{
         height: 150px;
     }
+}
+
+/* Event messages style */
+.warning-tooltip {
+    position: absolute;
+    background-color: #f44336;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: var(--generalFont);
+    width: 70%;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    font-size: 1rem;
+    z-index: 1000;
+    transform: translateY(-100%);
+    margin-top: -22px;
+    
+}
+
+.success-tooltip{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    background-color: var(--btnColor);
+    font-family: var(--generalFont);
+    color: white;
+    padding: 0.5rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
 }
