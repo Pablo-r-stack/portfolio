@@ -611,6 +611,15 @@ main {
     gap: 1rem;
 }
 
+.contact div a{
+    text-decoration: underline;
+    font-weight: 800;
+    color: var(--linkColor);
+    &:hover{
+        color: var(--hoverColor);
+    }
+}
+
 .contact form {
     display: flex;
     flex-direction: column;
