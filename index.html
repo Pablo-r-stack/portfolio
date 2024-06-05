@@ -7,52 +7,121 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <title>Pablo Ramiro Velasco</title>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+        emailjs.init('DWcYf0bz1GbFVmtxo')
+    </script>
 </head>
 
 <body>
-    <nav>
-        <div>
-            <a href="#" class="logo">
-                pabloVelasco
-            </a>
-            <a id="navMail" class="navMail">pablor.velasco.suarez@gmail.com</a>
-        </div>
-        <div class="navLinks">
-            <ul>
-                <li><a href="#stack">Stack <img src="assets/img/icons/arrow.png" alt="arrow"></a></li>
-                <li><a href="#experience">Experiencia <img src="assets/img/icons/arrow.png" alt="arrow"></a></li>
-                <li><a href="#formation">Formacion <img src="assets/img/icons/arrow.png" alt="arrow"></a></li>
-                <li><a href="#contact">Contacto <img src="assets/img/icons/arrow.png" alt="arrow"></a></li>
-            </ul>
-        </div>
-    </nav>
+    <header>
+        <nav>
+            <div>
+                <a href="#" class="logo">
+                    pabloVelasco
+                </a>
+            </div>
+            <!-- Lang Toggler -->
+            <input id='toggler' type='checkbox'>
+            <label for="toggler" class="hamb">
+                <div></div>
+                <div></div>
+                <div></div>
+            </label>
+            <div class="navLinks">
+                <ul>
+                    <li><a href="#stack"><span data-i18n="navlinks.0">Stack</span><img src="assets/img/icons/arrow.png"
+                                alt="arrow"></a></li>
+                    <li><a href="#experience"><span data-i18n="navlinks.1">Experiencia</span><img
+                                src="assets/img/icons/arrow.png" alt="arrow"></a></li>
+                    <li><a href="#formation"><span data-i18n="navlinks.2">Formacion</span><img
+                                src="assets/img/icons/arrow.png" alt="arrow"></a></li>
+                    <li><a href="#contact"><span data-i18n="navlinks.3">Contacto</span><img
+                                src="assets/img/icons/arrow.png" alt="arrow"></a></li>
+                    <li>
+                        <fieldset id='lang'>
+                            <legend><span data-i18n="navlinks.4">Languague:</span></legend>
+                            <input type="radio" name="lang" value="en" id="en" checked><label for="en"
+                                data-lang="en"><img src='assets/img/icons/enIcon.png'></label>
+                            <input type="radio" name="lang" value="es" id="es"><label for="es" data-lang="es"><img
+                                    src='assets/img/icons/esIcon.png'></label>
+                            <input type="radio" name="lang" value="pt" id="pt"><label for="pt" data-lang="pt"><img
+                                    src='assets/img/icons/ptIcon.png'></label>
+                        </fieldset>
+                    </li>
+                    <li>
+                        <div class="toggle-switch">
+                            <label class="switch-label">
+                                <input type="checkbox" class="checkbox">
+                                <span class="slider"></span>
+                            </label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <main>
         <section id="home" class="info">
             <article>
                 <h1>Pablo Velasco</h1>
-                <h3>Programador Web Fullstack Jr.</h3>
-                    <p>Construyo aplicaciones web responsivas que se adapten a las necesidades del cliente y exigencia
-                        del
-                        mercado.</p>
+                <h3 data-i18n="info.role"></h3>
+                <p data-i18n="info.desc"></p>
             </article>
             <article id="social">
                 <img id="devPhoto" src="assets/img/photo/profile-photo.png" alt="pablo-foto">
                 <div class="socialMedia">
-                    <h3>Redes:</h3>
+                    <h3 data-i18n="info.social-Media"></h3>
                     <ul>
-                        <li><a href="https://github.com/Pablo-r-stack"><img src="assets/img/icons/gitIcon.png" alt="">Github</a></li>
-                        <li><a href="https://www.linkedin.com/in/pablo-r-velasco/"><img src="assets/img/icons/linkedIcon.png" alt="">LinkedIn</a></li>
+                        <li><svg id="mailBtn" width="25px" height="42px" viewBox="0 0 52 44" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path id="envelope"
+                                    d="M43.125 0H14.375C10.0424 0 6.50187 3.39112 6.26285 7.66395L6.25 8.125V29.375C6.25 33.7075 9.64112 37.248 13.9139 37.4872L14.375 37.5H43.125C47.4575 37.5 50.998 34.1087 51.2372 29.836L51.25 29.375V8.125C51.25 3.79243 47.8588 0.251875 43.586 0.0128496L43.125 0ZM10 12.2475L27.8767 21.6593C28.3452 21.9058 28.8922 21.941 29.383 21.765L29.6233 21.6593L47.5 12.25V29.375C47.5 31.6705 45.7322 33.553 43.4837 33.7355L43.125 33.75H14.375C12.0796 33.75 10.197 31.9823 10.0145 29.7338L10 29.375V12.2475ZM14.375 3.75H43.125C45.4205 3.75 47.303 5.51778 47.4855 7.76618L47.495 8.015L28.75 17.8813L10.0014 8.01208C10.0613 5.64803 11.9965 3.75 14.375 3.75Z"
+                                    fill="currentColor" />
+                                <path id="contour"
+                                    d="M3.74865 8.77815C1.4942 10.2221 0 12.7491 0 15.625V30.625C0 37.8737 5.87627 43.75 13.125 43.75H35.625C38.501 43.75 41.028 42.2557 42.4718 40.0012L13.125 40C7.94733 40 3.75 35.8027 3.75 30.625L3.74865 8.77815Z"
+                                    fill="currentColor" />
+                                <path id="check" d="M39.25 7.57159L21.5 26.5L13.75 18.25" stroke="currentColor"
+                                    stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Pablo-r-stack">
+                                <svg width="60" height="60" viewBox="0 0 60 60" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_100003_50)">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M30 0C46.569 0 60 13.7698 60 30.7588C60 44.3458 51.414 55.8719 39.501 59.9429C37.98 60.2459 37.44 59.2853 37.44 58.4663C37.44 57.4523 37.476 54.1404 37.476 50.0244C37.476 47.1564 36.516 45.2846 35.439 44.3306C42.12 43.5686 49.14 40.9673 49.14 29.1533C49.14 25.7933 47.976 23.0515 46.05 20.8975C46.362 20.1205 47.391 16.9919 45.756 12.7559C45.756 12.7559 43.242 11.9317 37.515 15.9097C35.118 15.2287 32.55 14.886 30 14.874C27.45 14.886 24.885 15.2287 22.491 15.9097C16.758 11.9317 14.238 12.7559 14.238 12.7559C12.609 16.9919 13.638 20.1205 13.947 20.8975C12.03 23.0515 10.857 25.7933 10.857 29.1533C10.857 40.9373 17.862 43.5785 24.525 44.3555C23.667 45.1235 22.89 46.4783 22.62 48.4673C20.91 49.2533 16.566 50.6136 13.89 45.9126C13.89 45.9126 12.303 42.9572 9.291 42.7412C9.291 42.7412 6.366 42.7024 9.087 44.6104C9.087 44.6104 11.052 45.5554 12.417 49.1104C12.417 49.1104 14.178 54.6002 22.524 52.7402C22.539 55.3112 22.566 57.7343 22.566 58.4663C22.566 59.2793 22.014 60.2308 20.517 59.9458C8.59499 55.8808 0 44.3488 0 30.7588C0 13.7698 13.434 0 30 0Z"
+                                            fill="currentColor" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_100003_50">
+                                            <rect width="60" height="60" fill="currentColor" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/pablo-r-velasco/">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12.225 12.225H10.447V9.44C10.447 8.776 10.435 7.921 9.522 7.921C8.596 7.921 8.454 8.645 8.454 9.391V12.225H6.676V6.498H8.383V7.281H8.407C8.755 6.687 9.403 6.331 10.091 6.356C11.893 6.356 12.226 7.541 12.226 9.084L12.225 12.224V12.225ZM4.67 5.715C4.39687 5.71369 4.13529 5.60467 3.94207 5.41164C3.74884 5.2186 3.63958 4.95712 3.638 4.684C3.638 4.118 4.104 3.652 4.67 3.652C5.236 3.652 5.701 4.118 5.702 4.684C5.702 5.25 5.236 5.715 4.67 5.715ZM5.559 12.225H3.779V6.498H5.559V12.225ZM13.11 2H2.885C2.65315 1.99865 2.43014 2.08886 2.26442 2.25102C2.09871 2.41317 2.00368 2.63418 2 2.866V13.134C2.00368 13.3658 2.09871 13.5868 2.26442 13.749C2.43014 13.9111 2.65315 14.0013 2.885 14H13.111C13.3434 14.0019 13.5671 13.912 13.7336 13.7498C13.9001 13.5877 13.9958 13.3664 14 13.134V2.865C13.9958 2.63283 13.9 2.41173 13.7335 2.24989C13.5669 2.08805 13.3432 1.99859 13.111 2.001L13.11 2Z"
+                                        fill="currentColor" />
+                                </svg>
+                            </a>
+                        </li>
                     </ul>
                 </div>
-                <button id="cvBtn">	⇣ CV</button>
+                <button class="btn" id="cvBtn"> ⇣ CV</button>
             </article>
         </section>
         <section class="about">
-            <h2>Sobre mi:</h2>
-            <p>Autodidacta en constante formación, apasionado por la tecnología y el
-                mundo del desarrollo con un mindset enfocado en el crecimiento personal-grupal. Trabajo en equipo con
-                alta adaptabilidad, buscando brindar soluciones
-                digitales innovadoras y eficientes.</p>
+            <h2 data-i18n="about.tittle"></h2>
+            <p data-i18n="about.desc"></p>
         </section>
         <section id="stack" class="stack">
             <h2>Stack:</h2>
@@ -112,61 +181,43 @@
             </article>
         </section>
         <section id="formation" class="formation">
-            <h2>Formación:</h2>
-
-            <div class="card">
-                <img src="assets/img/studies/fullstackEgg.png" alt="study">
-                <h4>Programador web Full Stack</h4>
-                <p>2023 - Egg Live</p>
-            </div>
-            <div class="card">
-                <img src="assets/img/studies/fullstackEpica.png" alt="study">
-                <h4>Programador web Full Stack</h4>
-                <p>2023 - Arg Programa</p>
-            </div>
-
+            <h2 data-i18n="formation.tittle"></h2>
         </section>
         <section id="experience" class="projects">
-            <h2>Proyectos | Experiencia</h2>
-            <div class="card">
-                <img src="assets/img/project.png" alt="proyect-img">
-                <h4>Encriptador de texto</h4>
-                <p>Challenge Oracle One & alura latam</p>
-                <div>
-                    <a href="https://github.com/Pablo-r-stack/text-encriptor-challenge" class="btn">Repo</a>
-                    <a href="https://pablo-r-stack.github.io/text-encriptor-challenge/" class="btn">Demo</a>
-                </div>
-            </div>
+            <h2 data-i18n="experience.tittle"></h2>
         </section>
         <section id="contact" class="contact">
-            <h2>Contacto</h2>
-            <p>tambien puedes seguirme en mis <a href="#social">redes sociales</a></p>
-            <form>
+            <h2 data-i18n="contact.tittle"></h2>
+            <div>
+                <p data-i18n="contact.desc"></p>
+                <a href="#social" data-i18n="contact.link"></a>
+            </div>
+            <form id="form">
                 <div>
-                    <label for="name">Nombre</label>
-                    <input type="text" placeholder="Darth Vader" id="name">
+                    <label for="from_name" data-i18n="contact.form.name"></label>
+                    <input type="text" placeholder="Darth Vader" name="from_name" id="from_name">
                 </div>
                 <div>
-                    <label for="mail">E-mail</label>
-                    <input type="email" placeholder="jointhedarkside@wehavecookies.com" id="mail">
+                    <label for="email_id" data-i18n="contact.form.email"></label>
+                    <input type="email" placeholder="jointhedarkside@wehavecookies.com" name="email_id" id="email_id">
                 </div>
                 <div>
-                    <label for="subject">Asunto</label>
-                    <input type="text" placeholder="execute order 66" id="subject">
+                    <label for="subject" data-i18n="contact.form.subject"></label>
+                    <input type="text" placeholder="execute order 66" name="subject" id="subject">
                 </div>
                 <div>
-                    <label for="msg">Mensaje</label>
-                    <textarea name="msg" id="msg" placeholder="I want your code for the empire"></textarea>
+                    <label for="message" data-i18n="contact.form.message"></label>
+                    <textarea name="message" id="message" placeholder="I want your code for the empire"></textarea>
                 </div>
-                <button type="submit" class="btn" id="btnSend">Enviar mensaje</button>
+                <button type="submit" class="btn" id="btnSend" data-i18n="contact.form.btn"></button>
             </form>
         </section>
     </main>
     <footer>
-        <p>2024 - Desarrollado por Pablo Velasco</p>
+        <p data-i18n="footer"></p>
     </footer>
     <div id="particles-js"></div>
-    <script src="assets/js/events.js"></script>
+    <script type="module" src="assets/js/events.js"></script>
     <script src="assets/js/particles.min.js"></script>
     <script src="assets/js/particlesjs-config.json"></script>
 </body>

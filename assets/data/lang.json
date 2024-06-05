@@ -1,0 +1,283 @@
+{
+    "languages": {
+        "en": {
+            "lang": "en",
+            "navlinks": [
+                "Stack",
+                "Expertise",
+                "Formation",
+                "Contact",
+                "Language :"
+            ],
+            "info": {
+                "role": "Full Stack Web Developer",
+                "desc": "I build responsive web apps which adapt to market needs.",
+                "social-Media": "Social Media"
+            },
+            "about": {
+                "tittle": "About Me:",
+                "desc": "Self taught in constant formation. Technology passionate with a focused self-growth-groupal mindset. I seek to bring efficient and innovative digital solutions."
+            },
+            "formation": {
+                "tittle": "Formation:",
+                "courses": [
+                    {
+                        "img": "assets/img/studies/fullstackEgg.png",
+                        "tittle": "Fullstack Web Developer",
+                        "year": "2023",
+                        "academy": "Egg Live"
+                    },
+                    {
+                        "img": "assets/img/studies/fullstackEpica.png",
+                        "tittle": "Fullstack Web Developer",
+                        "year": "2023",
+                        "academy": "Arg Programa"
+                    }
+                ]
+            },
+            "experience": {
+                "tittle": "Projects | Expertise",
+                "btns": {
+                    "repo": "Repository",
+                    "demo": "Demo"
+                },
+                "projects": [
+                    {
+                        "image": "assets/img/projects/sonica.png",
+                        "tittle": "Sonica",
+                        "desc": "Frontend Project for Fullstack Web formation 'Codo a Codo'",
+                        "repo": "https://github.com/Pablo-r-stack/sonica",
+                        "demo": "https://pablo-r-stack.github.io/sonica/"
+                    },
+                    {
+                        "image": "assets/img/projects/project.png",
+                        "tittle": "Text Encryptor",
+                        "desc": "Oracle & Alura Latam 'One' Challenge",
+                        "repo": "https://github.com/Pablo-r-stack/text-encriptor-challenge",
+                        "demo": "https://pablo-r-stack.github.io/text-encriptor-challenge/"
+                    },
+                    {
+                        "image": "assets/img/projects/yow.png",
+                        "tittle": "Your Online Wallet",
+                        "desc": "Fullstack WebApp - No Country 2024",
+                        "repo": "https://github.com/No-Country/c16-48-n-java",
+                        "demo": null
+                    },
+                    {
+                        "image": "assets/img/projects/quincho.png",
+                        "tittle": "Quincho Club",
+                        "desc": "Fullstack WebApp - Egg Live 2023",
+                        "repo": "https://github.com/Pablo-r-stack/QuinchoClub",
+                        "demo": null
+                    }
+                ]
+            },
+            "contact": {
+                "tittle": "Contact:",
+                "desc": "You can also follow me on my",
+                "link": "Social Media",
+                "form": {
+                    "name": "Name",
+                    "email": "E-mail",
+                    "subject": "Subject",
+                    "message": "Message",
+                    "btn": "Send"
+                }
+            },
+            "tooltip": {
+                "empty": "Please complete this field",
+                "illegal": "Illegal Characters Found",
+                "sending" : "Sending...",
+                "sent" : "Sent!",
+                "copyMail" : "e-mail copied"
+            },
+            "footer" : "2024 - Developed by Pablo Velasco"
+        },
+        "es": {
+            "lang": "es",
+            "navlinks": [
+                "Stack",
+                "Experiencia",
+                "Formacion",
+                "Contacto",
+                "Idioma :"
+            ],
+            "info": {
+                "role": "Programador Web Full Stack",
+                "desc": "Construyo aplicaciones web responsivas que se adapten a las necesidades del cliente y exigencia del mercado.",
+                "social-Media": "Redes Sociales:"
+            },
+            "about": {
+                "tittle": "Sobre mí:",
+                "desc": "Autodidacta en constante formación, apasionado por la tecnología y el mundo del desarrollo con un mindset enfocado en el crecimiento personal-grupal. Trabajo en equipo con alta adaptabilidad, buscando brindar soluciones digitales innovadoras y eficientes."
+            },
+            "formation": {
+                "tittle": "Formación:",
+                "courses": [
+                    {
+                        "img": "assets/img/studies/fullstackEgg.png",
+                        "tittle": "Programador web Full Stack",
+                        "year": "2023",
+                        "academy": "Egg Live"
+                    },
+                    {
+                        "img": "assets/img/studies/fullstackEpica.png",
+                        "tittle": "Programador web Full Stack",
+                        "year": "2023",
+                        "academy": "Arg Programa"
+                    }
+                ]
+            },
+            "experience": {
+                "tittle": "Proyectos | Experiencia",
+                "btns": {
+                    "repo": "Repositorio",
+                    "demo": "Demo"
+                },
+                "projects": [
+                    {
+                        "image": "assets/img/projects/sonica.png",
+                        "tittle": "Sonica",
+                        "desc": "Proyecto Frontend- Formación en desarrollo Fullstack Web 'Codo a Codo'",
+                        "repo": "https://github.com/Pablo-r-stack/sonica",
+                        "demo": "https://pablo-r-stack.github.io/sonica/"
+                    },
+                    {
+                        "image": "assets/img/projects/project.png",
+                        "tittle": "Encriptador de texto",
+                        "desc": "Desafío 'One' programaOracle & Alura Latam",
+                        "repo": "https://github.com/Pablo-r-stack/text-encriptor-challenge",
+                        "demo": "https://pablo-r-stack.github.io/text-encriptor-challenge/"
+                    },
+                    {
+                        "image": "assets/img/projects/yow.png",
+                        "tittle": "Your Online Wallet",
+                        "desc": "Aplicación Web Fullstack  - No Country 2024",
+                        "repo": "https://github.com/No-Country/c16-48-n-java",
+                        "demo": null
+                    },
+                    {
+                        "image": "assets/img/projects/quincho.png",
+                        "tittle": "Quincho Club",
+                        "desc": "Aplicación Web Fullstack - Egg Live 2023",
+                        "repo": "https://github.com/Pablo-r-stack/QuinchoClub",
+                        "demo": null
+                    }
+                ]
+            },
+            "contact": {
+                "tittle": "Contacto:",
+                "desc": "También puedes seguirme en mis",
+                "link": "Redes Sociales",
+                "form": {
+                    "name": "Nombre",
+                    "email": "E-mail",
+                    "subject": "Asunto",
+                    "message": "Mensaje",
+                    "btn": "Enviar"
+                }
+            },
+            "tooltip": {
+                "empty": "Por favor, completa este campo",
+                "illegal": "Caracteres ilegales encontrados",
+                "sending" : "Enviando...",
+                "sent" : "Enviado!",
+                "copyMail" : "e-mail copiado"
+            },
+            "footer" : "2024 - Desarrollado por Pablo Velasco"
+        },
+        "pt": {
+            "lang": "pt",
+            "navlinks": [
+                "Stack",
+                "Experiência",
+                "Formação",
+                "Contato",
+                "Idioma :"
+            ],
+            "info": {
+                "role": "Desenvolvedor Web Full Stack",
+                "desc": "Construo aplicações web responsivas que se adaptam às necessidades do mercado.",
+                "social-Media": "Redes Sociais"
+            },
+            "about": {
+                "tittle": "Sobre mim:",
+                "desc": "Autodidata em formação constante. Apaixonado por tecnologia com uma mentalidade focada no crescimento pessoal e grupal. Busco trazer soluções digitais eficientes e inovadoras."
+            },
+            "formation": {
+                "tittle": "Formação:",
+                "courses": [
+                    {
+                        "img": "assets/img/studies/fullstackEgg.png",
+                        "tittle": "Desenvolvedor Web Fullstack",
+                        "year": "2023",
+                        "academy": "Egg Live"
+                    },
+                    {
+                        "img": "assets/img/studies/fullstackEpica.png",
+                        "tittle": "Desenvolvedor Web Fullstack",
+                        "year": "2023",
+                        "academy": "Arg Programa"
+                    }
+                ]
+            },
+            "experience": {
+                "tittle": "Projetos | Experiência",
+                "btns": {
+                    "repo": "Repositório",
+                    "demo": "Demonstração"
+                },
+                "projects": [
+                    {
+                        "image": "assets/img/projects/sonica.png",
+                        "tittle": "Sonica",
+                        "desc": "Projeto Frontend - Formação em desenvolvimento Fullstack Web 'Codo a Codo'",
+                        "repo": "https://github.com/Pablo-r-stack/sonica",
+                        "demo": "https://pablo-r-stack.github.io/sonica/"
+                    },
+                    {
+                        "image": "assets/img/project.png",
+                        "tittle": "Criptografador de Texto",
+                        "desc": "Desafio Oracle & Alura Latam 'One'",
+                        "repo": "https://github.com/Pablo-r-stack/text-encriptor-challenge",
+                        "demo": "https://pablo-r-stack.github.io/text-encriptor-challenge/"
+                    },
+                    {
+                        "image": "assets/img/projects/yow.png",
+                        "tittle": "Your Online Wallet",
+                        "desc": "Aplicação Web Fullstack - No Country 2024",
+                        "repo": "https://github.com/No-Country/c16-48-n-java",
+                        "demo": null
+                    },
+                    {
+                        "image": "assets/img/projects/quincho.png",
+                        "tittle": "Quincho Club",
+                        "desc": "Aplicação Web Fullstack - Egg Live 2023",
+                        "repo": "https://github.com/Pablo-r-stack/QuinchoClub",
+                        "demo": null
+                    }
+                ]
+            },
+            "contact": {
+                "tittle": "Contato:",
+                "desc": "Você também pode me seguir nas minhas",
+                "link": "Redes Sociais",
+                "form": {
+                    "name": "Nome",
+                    "email": "E-mail",
+                    "subject": "Assunto",
+                    "message": "Mensagem",
+                    "btn": "Enviar"
+                }
+            },
+            "tooltip": {
+                "empty": "Por favor, preencha este campo",
+                "illegal": "Caracteres ilegais encontrados",
+                "sending" : "Enviando...",
+                "sent" : "Enviado!",
+                "copyMail" : "e-mail copiado"
+            },
+            "footer" : "2024 - Desenvolvido por Pablo Velasco"
+        }
+    }
+}
