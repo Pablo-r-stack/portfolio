@@ -22,6 +22,12 @@
                 "tittle": "Formation:",
                 "courses": [
                     {
+                        "img": "assets/img/studies/frontendOne.png",
+                        "tittle": "Frontend Web Developer",
+                        "year": "2024",
+                        "academy": "Alura Latam"
+                    },
+                    {
                         "img": "assets/img/studies/fullstackEgg.png",
                         "tittle": "Fullstack Web Developer",
                         "year": "2023",
@@ -43,11 +49,18 @@
                 },
                 "projects": [
                     {
+                        "image": "assets/img/projects/pasosFirmes.png",
+                        "tittle": "Pasos Firmes",
+                        "desc": "Fullstack WebApp project for No Country 2024",
+                        "repo": "https://github.com/No-Country-simulation/s16-06-m-java-react",
+                        "demo": "https://pasos-deploy-front.vercel.app/login"
+                    },
+                    {
                         "image": "assets/img/projects/sonica.png",
                         "tittle": "Sonica",
-                        "desc": "Frontend Project for Fullstack Web formation 'Codo a Codo'",
+                        "desc": "Fullstack Project for Fullstack Web formation 'Codo a Codo'",
                         "repo": "https://github.com/Pablo-r-stack/sonica",
-                        "demo": "https://pablo-r-stack.github.io/sonica/"
+                        "demo": "https://sonica-front.vercel.app/"
                     },
                     {
                         "image": "assets/img/projects/project.png",
@@ -115,6 +128,12 @@
                 "tittle": "Formación:",
                 "courses": [
                     {
+                        "img": "assets/img/studies/frontendOne.png",
+                        "tittle": "Programador Web Frontend",
+                        "year": "2024",
+                        "academy": "Alura Latam"
+                    },
+                    {
                         "img": "assets/img/studies/fullstackEgg.png",
                         "tittle": "Programador web Full Stack",
                         "year": "2023",
@@ -136,11 +155,18 @@
                 },
                 "projects": [
                     {
+                        "image": "assets/img/projects/pasosFirmes.png",
+                        "tittle": "Pasos Firmes",
+                        "desc": "Aplicación Web Fullstack -  projecto en No Country 2024",
+                        "repo": "https://github.com/No-Country-simulation/s16-06-m-java-react",
+                        "demo": "https://pasos-deploy-front.vercel.app/login"
+                    },
+                    {
                         "image": "assets/img/projects/sonica.png",
                         "tittle": "Sonica",
-                        "desc": "Proyecto Frontend- Formación en desarrollo Fullstack Web 'Codo a Codo'",
+                        "desc": "Proyecto Fullstack- Formación en desarrollo Fullstack Web 'Codo a Codo'",
                         "repo": "https://github.com/Pablo-r-stack/sonica",
-                        "demo": "https://pablo-r-stack.github.io/sonica/"
+                        "demo": "https://sonica-front.vercel.app/"
                     },
                     {
                         "image": "assets/img/projects/project.png",
@@ -208,6 +234,12 @@
                 "tittle": "Formação:",
                 "courses": [
                     {
+                        "img": "assets/img/studies/frontendOne.png",
+                        "tittle": "Desenvolvedor Web Frontend",
+                        "year": "2024",
+                        "academy": "Alura Latam"
+                    },
+                    {
                         "img": "assets/img/studies/fullstackEgg.png",
                         "tittle": "Desenvolvedor Web Fullstack",
                         "year": "2023",
@@ -229,11 +261,18 @@
                 },
                 "projects": [
                     {
+                        "image": "assets/img/projects/pasosFirmes.png",
+                        "tittle": "Pasos Firmes",
+                        "desc": "Aplicação Web Fullstack - No Country 2024",
+                        "repo": "https://github.com/No-Country-simulation/s16-06-m-java-react",
+                        "demo": "https://pasos-deploy-front.vercel.app/login"
+                    },
+                    {
                         "image": "assets/img/projects/sonica.png",
                         "tittle": "Sonica",
-                        "desc": "Projeto Frontend - Formação em desenvolvimento Fullstack Web 'Codo a Codo'",
+                        "desc": "Projeto Fullstack - Formação em desenvolvimento Fullstack Web 'Codo a Codo'",
                         "repo": "https://github.com/Pablo-r-stack/sonica",
-                        "demo": "https://pablo-r-stack.github.io/sonica/"
+                        "demo": "https://sonica-front.vercel.app/"
                     },
                     {
                         "image": "assets/img/project.png",
