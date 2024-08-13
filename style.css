@@ -812,7 +812,7 @@ footer {
     }
 
     main {
-        margin: 0 20rem;
+        margin: 0 40rem;
         margin-top: calc(3rem + 1.6rem);
         gap: 32px;
     }
