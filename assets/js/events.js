@@ -111,6 +111,8 @@ form.addEventListener('submit', (e) => {
     setTimeout(() => {
         btnSend.textContent = actualLang.contact.form.btn;
         btnSend.style.backgroundColor = 'var(--btnColor)';
+        //reset all formInput fields to be blank
+        formInput.forEach((field) => field.value = '')
     }, 5000);
 });
 
@@ -131,16 +133,17 @@ const validateForm = (() => {
 //emerging tooltips
 const addWarnMsg = ((field, msg) => {
 
+    const parent = field.parentNode;
+    console.log(parent);
+    
     const warningMessage = document.createElement('div');
     warningMessage.classList.add('warning-tooltip');
     warningMessage.textContent = msg;
 
 
-    const inputRect = field.getBoundingClientRect();
     warningMessage.style.position = 'absolute';
-    warningMessage.style.top = `${window.scrollY + inputRect.top}px`;
-    warningMessage.style.left = `${window.scrollX + inputRect.left}px`;
-    document.body.appendChild(warningMessage);
+    
+    parent.appendChild(warningMessage);
 
     setTimeout(() => {
         warningMessage.remove();

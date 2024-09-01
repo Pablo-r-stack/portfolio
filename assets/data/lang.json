@@ -28,6 +28,12 @@
                         "academy": "Alura Latam"
                     },
                     {
+                        "img": "assets/img/studies/fullstackCac.png",
+                        "tittle": "Fullstack Web Developer",
+                        "year": "2024",
+                        "academy": "Codo a Codo 4.0"
+                    },
+                    {
                         "img": "assets/img/studies/fullstackEgg.png",
                         "tittle": "Fullstack Web Developer",
                         "year": "2023",
@@ -134,6 +140,12 @@
                         "academy": "Alura Latam"
                     },
                     {
+                        "img": "assets/img/studies/fullstackCac.png",
+                        "tittle": "Programador web Full Stack",
+                        "year": "2024",
+                        "academy": "Codo a Codo 4.0"
+                    },
+                    {
                         "img": "assets/img/studies/fullstackEgg.png",
                         "tittle": "Programador web Full Stack",
                         "year": "2023",
@@ -238,6 +250,12 @@
                         "tittle": "Desenvolvedor Web Frontend",
                         "year": "2024",
                         "academy": "Alura Latam"
+                    },
+                    {
+                        "img": "assets/img/studies/fullstackCac.png",
+                        "tittle": "Desenvolvedor Web Fullstack",
+                        "year": "2024",
+                        "academy": "Codo a Codo 4.0"
                     },
                     {
                         "img": "assets/img/studies/fullstackEgg.png",

@@ -629,6 +629,7 @@ main {
 
 .contact form div {
     display: flex;
+    position: relative;
     flex-direction: column;
     background-color: #ffffff;
     gap: 5px;
@@ -660,6 +661,39 @@ footer {
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+/* Event messages style */
+.warning-tooltip {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    background-color: #f44336 !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    font-family: var(--generalFont);
+    width: 90%;
+    color: white;
+    padding: 5px !important;
+    border-radius: 5px !important;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    font-size: 1rem;
+    z-index: 1000;
+    transform: translateY(-60%) translateX(2%);
+}
+
+.success-tooltip {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: green;
+    font-family: var(--generalFont);
+    color: white;
+    transform: translatey(-100%);
+    padding: 0.5rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
 }
 
 /* tablet */
@@ -778,6 +812,7 @@ footer {
     .contact form textarea {
         height: 150px;
     }
+    
 }
 
 /* desktop */
@@ -897,37 +932,10 @@ footer {
     .contact form textarea {
         height: 150px;
     }
+
+    /* .warning-tooltip{
+        width: 50%;
+    } */
 }
 
-/* Event messages style */
-.warning-tooltip {
-    position: absolute;
-    background-color: #f44336;
-    display: flex;
-    flex-wrap: wrap;
-    font-family: var(--generalFont);
-    width: 60%;
-    color: white;
-    padding: 5px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-    font-size: 1rem;
-    z-index: 1000;
-    transform: translateY(-100%);
-    margin-top: -22px;
 
-}
-
-.success-tooltip {
-    position: absolute;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: green;
-    font-family: var(--generalFont);
-    color: white;
-    transform: translatey(-100%);
-    padding: 0.5rem;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-    border-radius: 5px;
-}
